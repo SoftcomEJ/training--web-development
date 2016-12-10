@@ -1,8 +1,9 @@
 # Introdução
 
-A linguagem de marcação HTML (*HyperText Markup Language*) é a linguagem padrão
-para a exibição de informação na Web, que juntamente com o CSS (*Cascading
-Style Sheets*) e o JavaScript, constituem a base tecnológica da plataforma.
+A linguagem de marcação HTML (*HyperText Markup Language*) é uma linguagem
+de marcação para a estruração de documentos de hipertexto. O HTML, juntamente
+com o CSS (*Cascading Style Sheets*) e o JavaScript, constituem a base
+tecnológica da plataforma *Web*.
 
 De forma bastante simples, podemos estabelecer a responsabilidade de cada
 tecnologia como:

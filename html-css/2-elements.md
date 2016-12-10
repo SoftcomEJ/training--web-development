@@ -1,6 +1,6 @@
 # Elementos HTML
 
-O HTML é composto de várias *tags* HTML, formalmente chamados de **Elementos
+O HTML é composto de várias _tags_, formalmente chamados de **Elementos
 HTML**. Existem vários elementos HTML, cada um com uma semântica bem definida
 para organizar a informação do documento.
 
@@ -8,7 +8,7 @@ para organizar a informação do documento.
 ## Cabeçalhos
 
 Quando queremos informar que um trecho do texto é um cabeçalho do documento,
-seção, etc; utilizamos as *tags heading* para sua marcação. Veja:
+seção, etc; utilizamos as **_tags heading_** para sua marcação. Veja:
 
 ```html
 <h1>Softcom JR</h1>
@@ -17,7 +17,7 @@ seção, etc; utilizamos as *tags heading* para sua marcação. Veja:
 <h2>Contato</h2>
 ```
 
-As *tags heading* vão desde o `h1` até o `h6`, indicando ordem hierárquica:
+As _tags heading_ vão desde o `h1` até o `h6`, indicando ordem hierárquica:
 sendo `h1` o título de maior nível hieráquico e `h6` o de menor nível
 hieráquico. Utiliza-se o `h1` para o título do documento ou da página, `h2`
 para subtítulos ou títulos de seções do documento, e assim por diante.
@@ -25,7 +25,7 @@ para subtítulos ou títulos de seções do documento, e assim por diante.
 
 ## Parágrafos
 
-Quando exibimos corpo de texto na página, é recomendado utilizar a *tag*
+Quando exibimos corpo de texto na página, é recomendado utilizar a _tags_
 **parágrafo** `p`. Veja:
 
 ```html
@@ -44,21 +44,21 @@ Quando exibimos corpo de texto na página, é recomendado utilizar a *tag*
 Note que quebras de linhas em nosso texto não refletem em quebras de linha
 na página exibida ao usuário. Quebras de linha se tornam espaços quando
 renderizados, múltiplos espaços também são renderizados como um só espaço. Caso
-você queira quebrar a linha de um parágrafo, use a tag `<br/>`.
+você queira quebrar a linha de um parágrafo, use a _tag_ `<br/>`.
 
 
 
 ## Mudança de ênfase
 
-Mudanças de ênfase no texto podem ser feitas com diversas *tags*. Veja:
+Mudanças de ênfase no texto podem ser feitas com diversas _tags_. Veja:
 
-* A *tag* `strong` deixa um trecho "mais forte" — renderizado por padrão como
+* A _tags_ `strong` deixa um trecho "mais forte" — renderizado por padrão como
   negrito — normalmente indicando um trecho de importância ao contexto do
   documento;
-* A *tag* `em` indica um trecho com "ênfase" — renderizado por padrão com
+* A _tags_ `em` indica um trecho com "ênfase" — renderizado por padrão com
   itálico — normalmente indicando um trecho com pronúncia diferenciada, como
   termos estrangeiros.
-* A *tag* `small` indica um trecho com menor relevância — renderizado por
+* A _tags_ `small` indica um trecho com menor relevância — renderizado por
   padrão com uma fonte menor — normalmente indicando um comentário feito
   no documento;
 
@@ -81,10 +81,10 @@ Veja um exemplo:
 
 ## Listas
 
-Listas em HTML são criadas com duas tags com propriedades distintas. Uma lista
+Listas em HTML são criadas com duas _tags_ com propriedades distintas. Uma lista
 ordenada, ou seja, que contém uma ordem defina por índices, pode ser criada
-com a tag `ol` e normalmente renderiza os itens com o índice a frente. Cada
-item da lista deve ser definido com a tag `li`, veja:
+com a _tag_ `ol` e normalmente renderiza os itens com o índice a frente. Cada
+item da lista deve ser definido com a _tag_ `li`, veja:
 
 ```html
 <ol>
@@ -94,7 +94,7 @@ item da lista deve ser definido com a tag `li`, veja:
 </ol>
 ```
 
-Listas sem ordenação definida podem ser criadas com a tag `ul` e são
+Listas sem ordenação definida podem ser criadas com a _tag_ `ul` e são
 normalmente renderizadas como tópicos. Cada item novamente deve ser definido
 com um `li`. Veja:
 
@@ -108,7 +108,7 @@ com um `li`. Veja:
 
 ## Imagens
 
-Para adicionar imagens em nosso documento, utilizamos a *tag* `img`. É
+Para adicionar imagens em nosso documento, utilizamos a _tags_ `img`. É
 obrigatório a utilização de dois atributos para que a imagem seja exibida:
 `src` e `alt`. O atributo `src` indica o local da imagem, já o `alt` indica
 um texto alternativo para a imagem caso ela não possa ser exibida. Veja:
@@ -132,7 +132,7 @@ um texto alternativo para a imagem caso ela não possa ser exibida. Veja:
 ```
 
 Caso queremos adicionar uma legenda imagem, é necessário a utilização de outras
-*tags* auxiliares: `figure` e a `figcaption`, que indicam respectivamente a
+_tags_ auxiliares: `figure` e a `figcaption`, que indicam respectivamente a
 definição de uma figura e de uma legenda. Veja:
 
 ```html
@@ -142,14 +142,17 @@ definição de uma figura e de uma legenda. Veja:
 </figure>
 ```
 
+---
+
 ## Atividades
 
-1. Copie a pasta "exercise-2" para o seu computador;
+1. Copie a pasta `exercise-2` para o seu computador;
 2. Crie um novo arquivo texto chamado "index.html";
-3. Crie um documento HTML básico, como visto anteriormente, e abra-o no
-   em um navegador da sua preferência;
-4. Abra a imagem "template.png" e crie uma página HTML no documento
-   "index.html" que siga o modelo proposto pela imagem:
-   * No elemento `head`, crie a tag `<style></style>`, e copie o conteúdo
-     do arquivo "styles.css" para o conteúdo dessa tag;
-   * O conteúdo pode ser copiado do arquivo "content.txt";
+3. Crie um documento HTML básico, como visto anteriormente, salve-o com o nome
+   `index.html` e abra-o no em um navegador da sua preferência;
+4. No elemento `head`, adicione a seguinte _tag_:
+   `<link rel="stylesheet" href="styles.css" />`;
+4. Abra a imagem `template.png`;
+5. No arquivo `index.html`, recrie a página dada pela imagem. O conteúdo pode
+   ser copiado do arquivo "content.txt". Para ver o resultado do seu trabalho,
+   atualize a página aberta no navegador com <kbd>F5</kbd>;
