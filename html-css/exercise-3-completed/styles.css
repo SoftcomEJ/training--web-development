@@ -1,0 +1,44 @@
+html {
+  background-color: #DDD;
+  background-image: url('tileset.png');
+  font-family: sans-serif;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1px 16px;
+  border-top: #3F51B5 10px solid;
+  border-left: #BBB 2px solid;
+  border-right: #BBB 2px solid;
+}
+
+h1 {
+  margin: 16px 0 32px 0;
+  padding: 8px 0 8px 64px;
+  background-image: url('softcom.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
+  text-transform: uppercase;
+  color: #3F51B5;
+}
+
+h2 {
+  margin: 48px 0 16px 0;
+  color: #E91E63;
+}
+
+h3 {
+  color: #9FA8DA;
+  margin: 32px 0 8px 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+li {
+  margin-bottom: 8px;
+}
