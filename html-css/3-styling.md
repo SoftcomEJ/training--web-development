@@ -144,6 +144,20 @@ Algumas das principais propriedades para alterar a fonte do texto:
   * `font-style`: Indica se a fonte possui alguma estilização própria, como
     itálico ou se é oblíqua. Aceita valores `italic`, `normal` e `oblique`;
 
+Veja alguns exemplos:
+
+<div style="padding: 16px; border: #777 solid 1px;">
+  <p style="font-family: sans-serif; font-weight: bold; margin: 8px 0;">
+    font-family: sans-serif; font-weight: bold;
+  </p>
+  <p style="font-family: serif; font-style: italic; margin: 8px 0;">
+    font-family: serif; font-style: italic;
+  </p>
+  <p style="font-family: monospace; margin: 8px 0;">
+    font-family: monospace;
+  </p>
+</div>
+
 
 ### Alinhamento de texto
 
@@ -160,6 +174,17 @@ A disposição do texto pode ser alterada com as seguintes propriedades:
   * `line-height`: altera o tamanho da distância entre as linhas. Recebe um
     valor de medida de tamanho.
 
+<div style="padding: 16px; border: #777 solid 1px;">
+  <p style="text-align: left;">
+    text-align: left;
+  </p>
+  <p style="text-align: center;">
+    text-align: center;
+  </p>
+  <p style="text-align: right;">
+    text-align: right;
+  </p>
+</div>
 
 ### Fundo
 
@@ -188,6 +213,15 @@ O fundo de um elemento pode ser alterado com as propriedades:
       - `contain`, redimensiona o fundo para conter-se ao elemento;
       - `cover`, redimensiona o fundo para cobrir o elemento.
 
+<div style="padding: 16px; border: #777 solid 1px;">
+  <p style="background-color: #3F51B5">
+    background-color: #3F51B5
+  </p>
+  <p style="background-image: url('http://imgur.com/lc3x4iV');">
+    background-image: url('http://imgur.com/lc3x4iV');
+  </p>
+</div>
+
 ### Bordas
 
 Bordas de um elemento podem ser adicionadas com as propriedades:
@@ -196,6 +230,15 @@ Bordas de um elemento podem ser adicionadas com as propriedades:
   * `border-color`: A cor da borda;
   * `border-style`: O estilo da borda, pode receber valores como `solid`,
     `dotted`, `dashed`, `double`, entre outros.
+
+<div style="padding: 16px; border: #777 solid 1px;">
+  <p style="border-style: solid; border-color: #E91E63;">
+    border-style: solid; border-color: #E91E63;
+  </p>
+  <p style="border-style: dotted; border-color: #3F51B5; border-width: 5px;">
+    border-style: dotted; border-color: #3F51B5; border-width: 5px;
+  </p>
+</div>
 
 ### Espaçamento
 
@@ -207,6 +250,16 @@ pode ser `top`, `right`, `bottom` e `left`.
 Já espaçamentos externos, entre a borda do elemento e elementos externos, podem
 ser definidos com a propriedade `margin-[lado]` e recebe também um tamanho.
 `lado` pode ser, novamente, `top`, `right`, `bottom` e `left`.
+
+<div style="padding: 16px; border: #777 solid 1px;">
+  <p style="background-color: #DDD; padding: 20px;">
+   padding: 20px;
+  </p>
+  <p style="background-color: #DDD; padding: 10px; margin: 20px;">
+  padding: 10px; margin: 20px;
+  </p>
+</div>
+
 
 ---
 
