@@ -1,0 +1,51 @@
+html {
+  background-color: #ddd;
+}
+
+body {
+  margin: 0;
+}
+
+.card {
+  box-sizing: border-box;
+  position: relative;
+  width: 420px;
+  height:  270px;
+  border: #ccc solid 1px;
+  margin: 200px auto;
+  background-color: #fff;
+  background-image: url('corner.png');
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 75px;
+  font-family: sans-serif;
+}
+
+.header {
+  position: absolute;
+  height: 50px;
+  top: 16px;
+  left: 16px;
+}
+
+.personal {
+  margin: 0 auto;
+  width: 50%;
+  margin-top: 25%;
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+  line-height: 1.5em;
+}
+
+.footer {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  padding: 8px;
+  bottom: 0;
+  background-color: #3F51B5;
+  font-size: 11px;
+  font-style: normal;
+  color: #fff;
+}
