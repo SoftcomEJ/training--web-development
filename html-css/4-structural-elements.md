@@ -93,13 +93,7 @@ utilizamos a sintaxe `#[identificador]`, como visto a seguir:
 
 E terá um resultado parecido com:
 
-<div style="background-color: #FFF; font-family: sans-serif; margin-bottom: 16px;">
-  <h2 style="padding: 64px 8px 8px 8px; background-color: #3F51B5; font-size: 18px; color: #FFF;">Softcom EJ</h2>
-  <div style="padding: 8px; font-size: 14px; color: #777;">
-    Empresa Júnior de Computação e Informática locada na
-    Universidade Estadual de Maringá.
-  </div>
-</div>
+[http://i.imgur.com/wQulK6T.png](Visualização do exemplo)
 
 No entanto, um elemento só pode possuir um identificador e um identificador só
 pode pertencer a um elemento. Mas e se tivessemos a necessidade de aplicar uma
@@ -147,15 +141,9 @@ sintaxe `.[nome da classe]`. Veja o exemplo anterior:
 }
 ```
 
-Que terá um resultado similar a:
+Que terá um resultado também similar a:
 
-<div style="background-color: #FFF; font-family: sans-serif; margin-bottom: 16px;">
-  <h2 style="padding: 64px 8px 8px 8px; background-color: #3F51B5; font-size: 18px; color: #FFF;">Softcom EJ</h2>
-  <div style="padding: 8px; font-size: 14px; color: #777;">
-    Empresa Júnior de Computação e Informática locada na
-    Universidade Estadual de Maringá.
-  </div>
-</div>
+[http://i.imgur.com/wQulK6T.png](Visualização do exemplo)
 
 Um elemento pode possuir quantas classes forem necessárias, basta adicioná-la
 ao atributo `class`, separando-as por um espaço simples. Perceba que com
@@ -182,12 +170,7 @@ o **Modelo de Caixa** do CSS.
 O Modelo de Caixa do CSS é um modelo retangular de como cada elemento é
 apresentado na interface do navegador. Veja na imagem abaixo:
 
-<figure style="margin-bottom: 16px; text-align: center;">
-  <img src="http://i.imgur.com/ULqumQ2.png" alt="Modelo de caixa do CSS" />
-  <figcaption style="text-align: center;">
-    Representação do Modelo de Caixa do CSS
-  </figcaption>
-</figure>
+![Modelo de Caixa do CSS](http://i.imgur.com/ULqumQ2.png)
 
 Por padrão, o dimensão de um elemento é calculado da soma dos valores de
 `padding`, `border-width` e `width`. O valor de `margin` é adicionado também,
@@ -218,14 +201,10 @@ trabalham com essas coordenadas.
 O posicionamento estático é o posicionamento padrão e recebem o valor da
 propriedade `position` como  `static`. Elementos com posicionamento estático
 seguem o fluxo dado pela sua declaração no documento HTML e sempre reservam
-o espaço do elemento.
+o espaço do elemento. Como se vê abaixo:
 
-<figure style="margin-bottom: 16px; text-align: center;">
-  <img src="http://i.imgur.com/FHJrukT.gif" alt="Elemento com posicionamneto estático" />
-  <figcaption style="text-align: center;">
-    Um elemento posicionado estaticamente segue o fluxo de exibição do HTML.
-  </figcaption>
-</figure>
+![Elemento com posicionamneto estático](http://i.imgur.com/FHJrukT.gif)
+
 
 ### Posicionamento fixo
 
@@ -236,15 +215,10 @@ visão do navegador. A medida que a página é rolada, o elemento continua fixo 
 posição que você definiu e o conteúdo da página rola normalmente. O
 posicionamento fixo também não reserva espaço para o elemento, fazendo com que
 outros elementos tomem seu lugar e que ele sobreponha-se a outros elementos.
+Como pode-se ver a seguir:
 
+![Elemento com posicionamneto fixo](http://i.imgur.com/10lTptQ.gif)
 
-<figure style="margin-bottom: 16px; text-align: center;">
-  <img src="http://i.imgur.com/10lTptQ.gif" alt="Elemento com posicionamento fixo" />
-  <figcaption style="text-align: center;">
-    Um elemento posicionado fixamente permanece no mesmo local mesmo quando
-    a página é rolada.
-  </figcaption>
-</figure>
 
 ### Posicionamento relativo
 
@@ -255,15 +229,10 @@ podem receber valores `top`, `right`, `bottom` e `left`; a diferença é que ao
 invés de utilizar o canto superior da página, o elemento posicionado
 relativamente utiliza seu próprio canto superior direito para estabelecer a
 referência da coordenada. O posicionamento relativo reserva o espaço ao
-elemento.
+elemento. Como se vê abaixo:
 
-<figure style="margin-bottom: 16px; text-align: center;">
-  <img src="http://i.imgur.com/aGfEfq5.gif" alt="Elemento com posicionamento relativo" />
-  <figcaption style="text-align: center;">
-    Um elemento posicionado relativamente utiliza o seu próprio ponto inicial
-    para referenciar as coordenadas.
-  </figcaption>
-</figure>
+![Elemento com posicionamneto relativo](http://i.imgur.com/aGfEfq5.gif)
+
 
 ### Posicionamento absoluto
 
@@ -271,15 +240,10 @@ O posicionamento absoluto, definido com `position` com valor `absolute`,
 funciona de maneira similar ao posicionamento relativo, porém utiliza o
 elemento pai para calcular suas coordenadas. O posicionamento absoluto também
 não reserva espaço para o elemento, fazendo com que outros elementos utilizem
-o espaço antes ocupado por ele.
+o espaço antes ocupado por ele. Tal como segue:
 
-<figure style="margin-bottom: 16px; text-align: center;">
-  <img src="http://i.imgur.com/nTy8UzO.gif" alt="Elemento com posicionamento absoluto" />
-  <figcaption style="text-align: center;">
-    Um elemento posicionado absolutamente utiliza o ponto superior esquerdo
-    do elemento pai para referenciar as coordenadas.
-  </figcaption>
-</figure>
+![Elemento com posicionamneto absoluto](http://i.imgur.com/nTy8UzO.gif)
+
 
 ---
 
