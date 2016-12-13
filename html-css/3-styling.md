@@ -214,11 +214,11 @@ O fundo de um elemento pode ser alterado com as propriedades:
       - `cover`, redimensiona o fundo para cobrir o elemento.
 
 <div style="padding: 16px; border: #777 solid 1px;">
-  <p style="background-color: #3F51B5">
+  <p style="background-color: #3F51B5; padding: 8px 0;">
     background-color: #3F51B5
   </p>
-  <p style="background-image: url('http://imgur.com/lc3x4iV');">
-    background-image: url('http://imgur.com/lc3x4iV');
+  <p style="background-image: url('http://i.imgur.com/lc3x4iV.jpg?1'); background-size: cover; padding: 8px 0;">
+    background-image: url('http://i.imgur.com/lc3x4iV.jpg?1'); background-size: cover;
   </p>
 </div>
 
@@ -259,6 +259,24 @@ ser definidos com a propriedade `margin-[lado]` e recebe também um tamanho.
   padding: 10px; margin: 20px;
   </p>
 </div>
+
+As propriedades de espaçamento `margin` e `padding` possuem atalhos para
+definir cada um valor para cada um dos lados. Como no exemplo abaixo:
+
+``` css
+p {
+  margin: 10px 20px 16px 8px;
+  padding: 1cm 1.2in;
+}
+```
+
+Quando uma propriedade de espaçamento possui quatro valores, eles indicam o
+valor de cada lado, a partir do topo, em um sentido horário. Nesse exemplo,
+o valor de margem em `top`, 10 pixels; `right`, 20 pixels; `bottom`, 16 pixels
+e `left`, 8 pixels. Agora, quando uma propriedade de espaçamento possui dois
+valores, eles indicam os espaçamentos verticais e horizontais. Ou seja, nesse
+exemplo, o valor de `padding` é de 1 centímetro em `top` e `bottom` e de 1,2
+polegadas em `left` e `right`.
 
 
 ---
