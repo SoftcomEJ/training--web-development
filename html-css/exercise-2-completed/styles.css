@@ -1,0 +1,42 @@
+:root {
+  background-color: #DDD;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1px 16px;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #3F51B5;
+  font-family: sans-serif;
+}
+
+h2 {
+  color: #E91E63;
+  font-family: sans-serif;
+}
+
+h3 {
+  color: #9FA8DA;
+  font-family: sans-serif;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+figure {
+  margin: 32px 0;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 16px;
+  font-size: 14px;
+  font-style: italic;
+  color: #777;
+}
