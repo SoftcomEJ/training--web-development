@@ -13,9 +13,14 @@ Para isso, utilizamos outra linguagem, o **CSS** (_Cascading Style Sheets_),
 que tem como objetivo somente definir regras de estilo para serem aplicadas
 nos elementos. A vantagem é que o CSS é bem mais robusto que o HTML para
 estilização, como veremos. Mas, principalmente, escrever formatação visual
-misturado com conteúdo de texto no HTML se mostrou algo bem impraticável.
-O CSS resolve isso separando as coisas; regras de estilo não aparecem mais no
-HTML, apenas no CSS.
+misturado com conteúdo de texto no HTML se mostrou algo bem impraticável, por
+exemplo, suponha que adicionamos estilo `in-line` para cada elemento HTML, e
+no decorrer do projeto, decidimos mudar o estilo dos parágrafos. Nesse caso,
+seria necessário percorrer todos os arquivos HTML, identificar as tags de
+parágrafo (`<p>`) e modificá-las. Colocando essas regras de estilo em um
+arquivo separado, temos apenas um ponto de alteração, facilitando a
+manutenibilidade. O CSS resolve isso separando as coisas; regras de estilo não
+aparecem mais no HTML, apenas no CSS.
 
 
 ## Sintaxe do CSS
@@ -41,9 +46,9 @@ CSS que serão aplicadas somente ao elemento e seus descendentes. Veja:
 ```
 
 Mas tínhamos acabado de discutir que uma das grandes vantagens do CSS era
-manter as regras de estilo fora do HTML. Usando esse atributo style não parece
-que fizemos isso. Justamente por isso não se recomenda esse tipo de uso na
-prática, com exceção de pequenos detalhes.
+manter as regras de estilo fora do HTML. Usando o atributo `style` não fizemos
+isso. Justamente por isso não se recomenda esse tipo de uso na prática, com
+exceção de pequenos detalhes.
 
 
 ### A _tag_ `style`
@@ -87,8 +92,8 @@ A terceira maneira de declararmos os estilos do nosso documento é com um
 arquivo externo, geralmente com a extensão `.css`. Para que seja possível
 declarar nosso CSS em um arquivo à parte, precisamos indicar em nosso documento
 HTML uma ligação entre ele e a folha de estilo. Para isso, utilizamos uma _tag_
-especial chamada `link`, indicando no atributo `rel` que será um documento
-de declaração de estilos e no atributo `href` o local do arquivo CSS.
+especial chamada `link`, indicando no atributo `rel` (relation) que será um
+documento de declaração de estilos e no atributo `href` o local do arquivo CSS.
 
 ``` html
 <!DOCTYPE html>

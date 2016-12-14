@@ -10,7 +10,7 @@ tecnologia como:
 
 * **HTML**: Responsável por estruturar e manter a semântica da informação;
 * **CSS**: Responsável por estilizar e alterar a aparência da informação;
-* **JavaScript**: Responsável por adicionar dinâmica e interação a página Web.
+* **JavaScript**: Responsável por adicionar dinâmica e interação à página Web.
 
 Navegadores recebem documentos HTML de um servidor *Web* ou de algum caminho
 local e então renderizam na tela uma página multimídia.
@@ -64,7 +64,7 @@ componente significa:
       - A *tag* `title` define o título do documento HTML, que normalmente
         é exibido na barra de título da janela ou aba do navegador.
   * A *tag* `body` contém o corpo do documento. O que está contido dentro do
-    `body` que irá ser exibido pelo navegador ao usuário.
+    `body` irá ser exibido pelo navegador ao usuário.
       - No corpo do `body` temos um comentário. Esse comentário não é
         levado em conta quando o navegador renderiza o documento para a
         exibição ao usuário. Comentários podem ser colocados em qualquer parte

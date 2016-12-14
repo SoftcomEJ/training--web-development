@@ -83,8 +83,9 @@ Veja um exemplo:
 
 Listas em HTML são criadas com duas _tags_ com propriedades distintas. Uma lista
 ordenada, ou seja, que contém uma ordem defina por índices, pode ser criada
-com a _tag_ `ol` e normalmente renderiza os itens com o índice a frente. Cada
-item da lista deve ser definido com a _tag_ `li`, veja:
+com a _tag_ `ol` (ordered list) e normalmente renderiza os itens com o índice
+a frente. Cada item da lista deve ser definido com a _tag_ `li` (list item),
+ veja:
 
 ```html
 <ol>
@@ -94,9 +95,9 @@ item da lista deve ser definido com a _tag_ `li`, veja:
 </ol>
 ```
 
-Listas sem ordenação definida podem ser criadas com a _tag_ `ul` e são
-normalmente renderizadas como tópicos. Cada item novamente deve ser definido
-com um `li`. Veja:
+Listas sem ordenação definida podem ser criadas com a _tag_ `ul` (unordered
+list) e são normalmente renderizadas como tópicos. Cada item novamente deve ser
+ definido com um `li`. Exemplo:
 
 ```html
 <ul>
@@ -131,9 +132,9 @@ um texto alternativo para a imagem caso ela não possa ser exibida. Veja:
 </p>
 ```
 
-Caso queremos adicionar uma legenda imagem, é necessário a utilização de outras
-_tags_ auxiliares: `figure` e a `figcaption`, que indicam respectivamente a
-definição de uma figura e de uma legenda. Veja:
+Caso queremos adicionar uma legenda à imagem, é necessário a utilização de
+outras _tags_ auxiliares: `figure` e a `figcaption`, que indicam respectivamente
+ a definição de uma figura e de uma legenda. Veja:
 
 ```html
 <figure>
@@ -149,7 +150,7 @@ definição de uma figura e de uma legenda. Veja:
 1. Copie a pasta `exercise-2` para o seu computador;
 2. Crie um novo arquivo texto chamado "index.html";
 3. Crie um documento HTML básico, como visto anteriormente, salve-o com o nome
-   `index.html` e abra-o no em um navegador da sua preferência;
+   `index.html` e abra-o em um navegador de sua preferência;
 4. No elemento `head`, adicione a seguinte _tag_:
    `<link rel="stylesheet" href="styles.css" />`;
 4. Abra a imagem `template.png`;
